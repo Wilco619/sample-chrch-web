@@ -140,7 +140,8 @@ font-size: 1.2em;
   float: right;
   background-color: aqua;
   width: auto;
-  margin: 0 40px;
+  z-index:999;
+  margin: 0 50px;
   border-radius: 50%;
 }
 
@@ -163,7 +164,7 @@ font-size: 1.2em;
 .sticky{
   position: fixed;
   top: 20px;
-  right: 40px;
+  right: 0;
 }
 
 #hero .container{
