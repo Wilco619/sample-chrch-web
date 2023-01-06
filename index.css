@@ -513,6 +513,7 @@ form{
   #ministries-card{
     flex-direction: column;
     margin: auto;
+    margin-bottom:60px;
     left: 0;
   }
   #ministries .card{
