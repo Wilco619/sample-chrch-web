@@ -383,25 +383,6 @@ font-size: 1.2em;
   vertical-align: middle;
 }
 
-#upbtn{
-  display: none;
-  position: fixed;
-  bottom: 60px;
-  right: 8px;
-  z-index: 999;
-  font-size: 20px;
-  border-radius: 50%;
-  background-color: #6D8B74;
-  color: white;
-  padding: 6px 9px;
-  border: none;
-  cursor: pointer;
-
-}
-#upbtn:hover{
-  background-color: #444;
-}
-
 /* Style inputs */
 #contacts_{
   box-sizing: border-box;
@@ -585,10 +566,7 @@ form{
    margin:0;
    padding:0;
   }
-  /* #upbtn{
-    right:400px;
-  }
-   */
+
 
   #menubtn {
     display: none;
@@ -618,21 +596,13 @@ form{
   #ministries .card {
     width: 15%;
   }
-  /* }
-  #upbtn {
-    right:350px;
-
-  } */
 }
 
 @media only screen and (min-width: 992px) {
   #ministries .card {
     width: 9%;
   }
-  /* #upbtn{
-    right:650px;
-
-  } */
+  
   #hero .container{
     padding-top: 70px;
   }
