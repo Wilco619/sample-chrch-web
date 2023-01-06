@@ -21,18 +21,3 @@
         navbar.classList.remove("sticky");
       }
     }
-
-// let mybtn = document.getElementById("upbtn");
-//     window.onscroll = function() {scrollFunction()};
-//     function scrollFunction(){
-//         if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90){
-//             mybtn.style.display = "block";
-//         }else{
-//             mybtn.style.display = "none";   
-//         }
-//     }
-
-    function topFunction(){
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
