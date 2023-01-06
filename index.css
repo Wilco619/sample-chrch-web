@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  scroll-behavior: smooth;
+  padding: 0;
+  background-color: beige;
+}
+section{
+  transition:margin-left .5s;
+  padding: 0;
+  position: relative;
+  margin: 0;
+  padding-top: 1%;
+  background-color: #6D8B74;
+}
+
+#topnav{
+  margin: 0;
+  top: 0;
+  z-index: 999;
+  background-color: rgba(95, 113, 97,.8); 
+  text-align: center;
+  width: 100%;
+  position: sticky;
+}
+
+
+#topnav a {
+  display: inline-block;
+  margin:0 20px 0 20px;
+  text-align: center;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#socialogo{
+  text-align: center;
+  display: flex;
+  background-color: rgba(95, 113, 97,.8);
+  margin-top: 0;
+  align-items: center;
+  justify-content:space-between;
+  
+}
+
+#socialogo a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#socialogo .logo{
+}
+#socialogo .social a{
+margin: 0 5px;
+padding: 0;
+font-size: 1.2em;
+}
+#socialogo .social p{
+  text-transform: uppercase;
+  font-size: .8em;
+  color: #fff;
+
+}
+
+#socialogo .social{
+  margin-left: 10px;
+}
+#socialogo div a{
+  margin-right: 10px;
+}
+
+.sidebar{
+  height: 100%;
+  width:0;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:rgb(95, 113, 97,.8);
+  overflow-x:hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover{
+  color: #f1f1f1;
+}
+
+.sidebar a.active{
+  color: #818181;
+}
+
+#side_aboutnav{
+  top: 200px;
+  position:absolute;
+  overflow-x: hidden;
+  display: block;
+}
+
+.sidebar .closebtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidebar .closebtn i{
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  font-size: 10px;
+  color:white;
+}
+
+#mySidebar .side_social{
+  bottom: 20px;
+  position:absolute;
+  display: flex;
+  overflow-x: hidden;
+}
+
+#menubtn{
+  float: right;
+  background-color: aqua;
+  width: auto;
+  margin: 0 40px;
+  border-radius: 50%;
+}
+
+.openbtn {
+  font-size:20px;
+  cursor: pointer;
+  z-index: 1000;
+  position: fixed;
+  background-color: rgba(95, 113, 97,.8);
+  color:white;
+  padding: 6px 9px;
+  border: none;
+  border-radius: 50%;
+}
+
+.openbtn:hover{
+  background-color:#444;
+}
+
+.sticky{
+  position: fixed;
+  top: 20px;
+  right: 40px;
+}
+
+#hero .container{
+  padding: 2%;
+  padding-top: 0;
+  background-color: #6D8B74;
+  text-align: center;
+  min-height: auto;
+  text-decoration: solid;
+}
+
+#hero h1{
+  font-size: 2rem;
+  text-transform: capitalize;
+  line-height: 1.2em;
+  word-spacing: .1em;
+}
+#hero .container p{
+  letter-spacing: .2em;
+  word-spacing: .2em;
+  line-height: 1.7em;
+}
+
+/*buttons*/
+
+#hero button {
+  background-color: transparent;
+  padding: 10px 30px;
+  margin: 10px ;
+  border: 2px solid black;
+  color: rgba(12, 12, 12, 0.856);
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+  letter-spacing: .1rem;
+
+  }
+
+#ministries-card button {
+  background-color: transparent;
+  padding: 10px 30px;
+  margin: 10px ;
+  border: 2px solid black;
+  color: rgba(12, 12, 12, 0.856);
+  text-transform: uppercase;
+  font-size: .7rem;
+  cursor: pointer;
+}
+
+
+/*buttons end*/
+
+
+  #intro1{
+    min-height: auto;
+  }
+
+  #intro1 h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin: auto;
+    letter-spacing: .1em;
+    font-size: 1.5rem;
+  }
+#intro1 .ppl{
+  padding: 20px 0 60px 0;
+}
+
+  
+  #intro .main{
+    background-color: #EFEAD8;
+    border-radius: 6px;
+    margin: auto;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15), 0 2px 8px 0 rgba(0, 0, 0, 0.14);
+    justify-content: space-between;
+  }
+
+  #intro{
+    display: flex;
+  }
+
+#intro .image{
+  width: 100;
+  background-size: cover;
+}
+
+#intro .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#intro .intro-text{
+  text-align: center;
+}
+
+.main .medcon{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main .medcon a{
+  text-decoration: none;
+  color: grey;
+  margin: 10px;
+}
+
+#ministries{
+  min-height: 80vh;
+  padding-bottom: 1%;
+}
+
+#ministries h2{
+  text-align: center;
+  text-transform: capitalize;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  letter-spacing: .1em;
+  font-size: 1.5rem;
+}
+
+#ministries-card{
+  background-color: #EFEAD8;
+  display: flex;
+  /* position:absolute; */
+  padding: 0;
+  left:2.5%;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 14px 0 rgba(0, 0, 0, 0.19);
+  width: 85%;
+  border-radius: 5px;
+}
+
+#ministries-card .card{
+  background-color: transparent;
+  width: 30%;
+  padding: 0;
+  border-radius: 5px;
+}
+
+#ministries .card img{
+  width: 100%;
+  border-radius: 5px;
+  background-size: cover;
+}
+
+#ministries .ministries-descrip{
+  text-align: center;
+  background-color: #EFEAD8;
+  width: 70%;
+  padding: 1%;
+  justify-content: right;
+}
+
+#ministries .ministries-descrip h3{
+  text-transform:capitalize;
+  font-size: 1.3rem;
+}
+
+#ministries .ministries-descrip .attrib{
+  display: flex;
+  width: 40%;
+  justify-content: center;
+}
+
+
+#ministries .ministries-descrip .attrib a{
+  text-decoration: none;
+  margin: 20px;
+  padding-right: 10px;
+}
+
+#ministries .ministries-descrip p{
+  letter-spacing: .2em;
+  line-height: 1.2em;
+}
+
+#ministries .ministries-descrip .attrib .icon1, #ministries .ministries-descrip .attrib .icon2{
+  display: flex;
+}
+
+#aboutus .aboutus{
+  display: flex;
+}
+#aboutus{
+  padding-top: 1%;
+}
+#aboutnav{
+  top: 0;
+  margin-top: 2%;
+  width: 100%;
+  text-align: right;
+  position: sticky;
+}
+#aboutnav a{
+  text-decoration: none;
+  margin: 20px;
+  height: 50px;
+  color: black;
+}
+#aboutus h2{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+#aboutus .aboutus .abouttext{
+  text-align: left;
+  font-size: 1em;
+  width: 70%;
+  padding: 5px;
+  margin: auto;
+}
+
+#aboutus .aboutus img{
+  width: 50%;
+  vertical-align: middle;
+}
+
+#upbtn{
+  display: none;
+  position: fixed;
+  bottom: 60px;
+  right: 8px;
+  z-index: 999;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: #6D8B74;
+  color: white;
+  padding: 6px 9px;
+  border: none;
+  cursor: pointer;
+
+}
+#upbtn:hover{
+  background-color: #444;
+}
+
+/* Style inputs */
+#contacts_{
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 50%;
+  display: block;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #6D8B74;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #D0C9C0;
+  color: #5F7161;
+}
+
+/* Style the container/contact section */
+#contacts_ .contacts_container {
+  background-color: #5F7161;
+  padding: 30px 0 50px 0;
+  margin-top: 40px;
+}
+
+/* Create two columns that float next to eachother */
+#contacts_ .column {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+#contacts_ .column_{
+  float: left;
+  width: 60%;
+  margin: 20px 50px 0 50px;
+
+
+}
+
+form{
+  margin: 0 -50px 0 70px;
+}
+
+
+
+#contacts_ .row{
+  display: flex;
+}
+
+/* Clear floats after the columns */
+#contacts_ .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#foot{
+  position: absolute;
+  bottom: 0;
+  z-index: 998;
+  width: 100%;
+  left: 0;
+  display: inline;
+  background-color: #5F7161;
+  color: white;
+  justify-content: space-between;
+}
+#foot a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 10px;
+  display: inline;
+  float: left;
+  height: auto;
+}
+#foot p{
+  float: right;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #topnav {
+    display: none;
+  }
+
+  #socialogo {
+    background-color: #6D8B74;
+
+  }
+  #socialogo a{
+    color: #111;
+  }
+
+  #socialogo .social p{
+    font-size: .6em;
+    color: #111;
+  }
+  #socialogo .social a{
+    font-size: 1.3em;
+    color: #111;
+  }
+
+  #intro{
+    display: flex;
+    flex-direction: column;
+  }
+  #intro .main{
+    margin-bottom: 40px;
+    margin: 10px;
+  }
+
+  #ministries-card{
+    flex-direction: column;
+    margin: auto;
+    left: 0;
+  }
+  #ministries .card{
+    width: 100%;
+  }
+  #ministries .ministries-descrip{
+    width: 100%;
+    padding: 0;
+  }
+  #ministries .ministries-descrip .attrib{
+    width: auto;
+  }
+  .sidebar{
+    padding-top: 15px;
+  }
+  .sidebar a{
+    font-size:18px;
+  }
+  #aboutus .aboutus .abouttext{
+    width:97%;
+  }
+  #aboutus .aboutus img{
+    height: 50%;
+    width:100%;
+  }
+  #aboutus .aboutus{
+    flex-direction: column;
+  }
+  .column, input[type=submit] {
+    width: 80%;
+    margin-top: 0;
+  }
+  #aboutnav{
+    display: none;
+  }
+  #contacts_ .column{
+    margin: auto;
+  }
+  #contacts_ .row{
+    flex-direction: column;
+  }
+
+  input[type=text], select, textarea{
+    width: 90%;
+  }
+
+}
+
+  @media only screen and (min-width: 600px) {
+  section{
+   width: auto;
+   margin:0;
+   padding:0;
+  }
+  /* #upbtn{
+    right:400px;
+  }
+   */
+
+  #menubtn {
+    display: none;
+
+  }
+  #ministries-card{
+    width: 95%;
+  }
+  #ministries .ministries-descrip .attrib{
+    width: auto;
+  }
+  #ministries-card .card{
+    border-radius: 50%;
+    position: absolute;
+    width:15%;
+    margin:2% 0 0 2%;
+  }
+  #ministries .card img{
+    border-radius: 50%;
+  }
+  #ministries .ministries-descrip {
+    width: auto;
+  }
+
+}
+@media only screen and (min-width: 768px) {
+  #ministries .card {
+    width: 15%;
+  }
+  /* }
+  #upbtn {
+    right:350px;
+
+  } */
+}
+
+@media only screen and (min-width: 992px) {
+  #ministries .card {
+    width: 9%;
+  }
+  /* #upbtn{
+    right:650px;
+
+  } */
+  #hero .container{
+    padding-top: 70px;
+  }
+  #hero h1{
+    font-size: 3rem;
+  }
+  #hero .container p{
+    font-size: 1.2rem;
+
+  }
+}
