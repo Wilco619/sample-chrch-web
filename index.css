@@ -591,6 +591,9 @@ input[type="submit"]:hover{
   #ministries .ministries-descrip {
     width: auto;
   }
+  #contacts_ .txtarea{
+  margin-left: -30%;
+}
 
 }
 @media only screen and (min-width: 768px) {
