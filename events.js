@@ -1,6 +1,6 @@
 
     function openNav(){
-        document.getElementById("mySidebar").style.width="180px";
+        document.getElementById("mySidebar").style.width="200px";
         document.getElementById("menubtn").style.visibility="hidden";
     }
     function closeNav(){
