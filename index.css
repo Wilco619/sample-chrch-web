@@ -417,8 +417,8 @@ input[type="email"]{
 #contacts_{
   min-height: 90vh;
   background-color: #5F7161;
-  padding: 50px 0 50px 0;
-  margin: 30px 0 30px 0;
+  padding: 50px 0 100px 0;
+  margin: 30px 0;
 }
 
 #contacts_ .txtarea{
